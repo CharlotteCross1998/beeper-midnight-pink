@@ -4,6 +4,12 @@
  ***/
 
 /* Variables that make it easier to adjust various colors of Beeper */
+
+*
+{
+   font-family: "B612";
+}
+
 :root {
   --primary-color: #000;
   --title-bar-bg: var(--primary-color);   /* the background of the title bar with window actions on it */
@@ -73,4 +79,28 @@
 .bp_WhoIsTypingTile {
   z-index: 10;
   background: var(--chat-panel-bg);
+}
+
+/* Declutter settings */
+#mx_ContextualMenu_Container .mx_AccessibleButton[aria-label="Chat Networks"] {
+  display: none;
+}
+
+#mx_ContextualMenu_Container .mx_AccessibleButton[aria-label="Mark All As Read"] {
+  display: none;
+}
+
+/* Non-linux users may want to keep this */
+#mx_ContextualMenu_Container .mx_AccessibleButton[aria-label="Check for Update"] {
+  display: none;
+}
+
+#mx_ContextualMenu_Container .mx_AccessibleButton[aria-label="Download Mobile App"] {
+  display: none;
+}
+
+/* Make your messages pink! */
+.mx_EventTile_messageOut:not(.mx_EventTile_emoji, .mx_EventTile_image, .mx_EventTile_sticker) .mx_EventTile_line
+{
+  background-color: #ff69b4 !important;
 }
