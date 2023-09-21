@@ -3,6 +3,8 @@
 ## Description
 Simple, pitch-black css theme for Beeper desktop client with pink messages and decluttered settings.
 
+Note: The tail of messages is still blue as this is shared between incoming and outgoing messages.
+
 ## Preview
 ![screenshot of application](beeper_theme.png)
 ![screenshot of application](beeper_theme_2.png)
