@@ -2,6 +2,7 @@
 
 ## Description
 Simple, pitch-black css theme for Beeper desktop client with pink messages and decluttered settings.
+Font is [B612](https://b612-font.com).
 
 Note: The tail of messages is still blue as this is shared between incoming and outgoing messages.
 
