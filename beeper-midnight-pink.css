@@ -100,7 +100,7 @@
 }
 
 /* Make your messages pink! */
-.mx_EventTile_messageOut:not(.mx_EventTile_emoji, .mx_EventTile_image, .mx_EventTile_sticker) .mx_EventTile_line
+.mx_EventTile_messageOut:not(.mx_EventTile_emoji, .mx_EventTile_image, .mx_EventTile_sticker) .mx_EventTile_line, .mx_EventTile_messageOut .mx_EventTile_reactionsContainer
 {
   background-color: #ff69b4 !important;
 }
